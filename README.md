@@ -11,5 +11,5 @@
 </p>
 
 <p align=center>
-  To visualize the console output for this project, go to <a href="https://codesandbox.io/s/santandercoders-web-project-module-2-kn2s7">my CodeSandbox folder</a> and check it out.
+  To visualize the console output for this project, go to <a href="https://codesandbox.io/s/santandercoders-web-project-module-2-kn2s7?file=/project.js">my CodeSandbox folder</a> and check it out.
 </p>

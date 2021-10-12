@@ -17,14 +17,9 @@ const groupBy = (stationArray, criteria) => {
 	return stationArray.reduce((lineArray, station) => {
 		let line = station[criteria].replace(/-/g, ' ').split(' ');
 		let key = '';
-		if (line[1] === undefined) {
-			key = line[0];
-		} else {
-			key = `${line[0]}-${line[1]}`;
-		}
-		if (!lineArray[key]) {
-			lineArray[key] = [];
-		} 
+		if (!line[1]) key = line[0];
+		else key = `${line[0]}-${line[1]}`;
+		if (!lineArray[key]) lineArray[key] = [];
 		lineArray[key].push(station);
 		return lineArray;
 	}, {});

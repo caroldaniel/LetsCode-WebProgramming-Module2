@@ -14,7 +14,7 @@
 	 <b>Activity 2</b>
 </h3>
 
-Pegue as informações dos seguintes pokemons e agrupe-os por seus tipos:
+Get the following pokemon and organize them by their types:
 
 ```js
 ['Charmander', 'Charizard', 'Pikachu', 'Raichu', 'Squirtle', 'Blastoise', 'Bulbasaur', 'Venusaur']
